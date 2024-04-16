@@ -1,0 +1,2081 @@
+[
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/AUD",
+        "Time Frame": "5 min",
+        "Start Time": "18:35",
+        "Position": "(DOWN)",
+        "TP-1": "18:40",
+        "TP-2": "18:45"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/MXN",
+        "Time Frame": "5 min",
+        "Start Time": "18:15",
+        "Position": "(UP)",
+        "TP-1": "18:20",
+        "TP-2": "18:25"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PKR",
+        "Time Frame": "5 min",
+        "Start Time": "18:00",
+        "Position": "(DOWN)",
+        "TP-1": "18:05",
+        "TP-2": "18:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/EGP",
+        "Time Frame": "5 min",
+        "Start Time": "17:40",
+        "Position": "(DOWN)",
+        "TP-1": "17:45",
+        "TP-2": "17:50"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/INR",
+        "Time Frame": "5 min",
+        "Start Time": "17:25",
+        "Position": "(DOWN)",
+        "TP-1": "17:30",
+        "TP-2": "17:35"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/COP",
+        "Time Frame": "5 min",
+        "Start Time": "17:00",
+        "Position": "(DOWN)",
+        "TP-1": "17:05",
+        "TP-2": "17:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/AUD",
+        "Time Frame": "5 min",
+        "Start Time": "14:20",
+        "Position": "(DOWN)",
+        "TP-1": "14:25",
+        "TP-2": "14:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PKR",
+        "Time Frame": "5 min",
+        "Start Time": "14:00",
+        "Position": "(UP)",
+        "TP-1": "14:05",
+        "TP-2": "14:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "13:50",
+        "Position": "(UP)",
+        "TP-1": "13:55",
+        "TP-2": "14:00"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/SGD",
+        "Time Frame": "5 min",
+        "Start Time": "13:25",
+        "Position": "(DOWN)",
+        "TP-1": "13:30",
+        "TP-2": "13:35"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/NGN",
+        "Time Frame": "5 min",
+        "Start Time": "13:15",
+        "Position": "(UP)",
+        "TP-1": "13:20",
+        "TP-2": "13:25"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/EGP",
+        "Time Frame": "5 min",
+        "Start Time": "13:00",
+        "Position": "(UP)",
+        "TP-1": "13:05",
+        "TP-2": "13:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/EGP",
+        "Time Frame": "5 min",
+        "Start Time": "10:05",
+        "Position": "(UP)",
+        "TP-1": "10:10",
+        "TP-2": "10:15"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "09:50",
+        "Position": "(UP)",
+        "TP-1": "09:55",
+        "TP-2": "10:00"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "09:40",
+        "Position": "(DOWN)",
+        "TP-1": "09:45",
+        "TP-2": "09:50"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "09:20",
+        "Position": "(UP)",
+        "TP-1": "09;25",
+        "TP-2": "09;30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/USD",
+        "Time Frame": "5 min",
+        "Start Time": "09:10",
+        "Position": "(UP)",
+        "TP-1": "09:15",
+        "TP-2": "09:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/AUD",
+        "Time Frame": "5 min",
+        "Start Time": "09:00",
+        "Position": "(UP)",
+        "TP-1": "09:05",
+        "TP-2": "09:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/AUD",
+        "Time Frame": "5 min",
+        "Start Time": "21:55",
+        "Position": "(UP)",
+        "TP-1": "22:00",
+        "TP-2": "22:05"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/EGP",
+        "Time Frame": "5 min",
+        "Start Time": "21:45",
+        "Position": "(DOWN)",
+        "TP-1": "21:50",
+        "TP-2": "21:55"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "21:35",
+        "Position": "(UP)",
+        "TP-1": "21:40",
+        "TP-2": "21:45"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "21:25",
+        "Position": "(UP)",
+        "TP-1": "21:30",
+        "TP-2": "21:35"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/IDR",
+        "Time Frame": "5 min",
+        "Start Time": "21:15",
+        "Position": "(UP)",
+        "TP-1": "21:20",
+        "TP-2": "21:25"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "21:00",
+        "Position": "(UP)",
+        "TP-1": "21:05",
+        "TP-2": "21:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/TRY",
+        "Time Frame": "5 min",
+        "Start Time": "18:40",
+        "Position": "(UP)",
+        "TP-1": "18:45",
+        "TP-2": "18:50"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/DZD",
+        "Time Frame": "5 min",
+        "Start Time": "18:10",
+        "Position": "(UP)",
+        "TP-1": "18:15",
+        "TP-2": "18:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/DZD",
+        "Time Frame": "5 min",
+        "Start Time": "18:00",
+        "Position": "(UP)",
+        "TP-1": "18:05",
+        "TP-2": "18:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/NZD",
+        "Time Frame": "5 min",
+        "Start Time": "17:30",
+        "Position": "(DOWN)",
+        "TP-1": "17:35",
+        "TP-2": "17:40"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "17:20",
+        "Position": "(DOWN)",
+        "TP-1": "17:25",
+        "TP-2": "17:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "17:00",
+        "Position": "(UP)",
+        "TP-1": "17:05",
+        "TP-2": "17:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "14:15",
+        "Position": "(DOWN)",
+        "TP-1": "14:20",
+        "TP-2": "14:25"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/NGN",
+        "Time Frame": "5 min",
+        "Start Time": "14:05",
+        "Position": "(DOWN)",
+        "TP-1": "14:10",
+        "TP-2": "14:15"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "GBP/USD",
+        "Time Frame": "5 min",
+        "Start Time": "13:45",
+        "Position": "(UP)",
+        "TP-1": "13:50",
+        "TP-2": "13:55"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/IDR",
+        "Time Frame": "5 min",
+        "Start Time": "13:35",
+        "Position": "(DOWN)",
+        "TP-1": "13:40",
+        "TP-2": "13:45"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "13:25",
+        "Position": "(DOWN)",
+        "TP-1": "13:30",
+        "TP-2": "13:35"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "13:10",
+        "Position": "(DOWN)",
+        "TP-1": "13:15",
+        "TP-2": "13:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "11:00",
+        "Position": "(UP)",
+        "TP-1": "11:05",
+        "TP-2": "11:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "10:35",
+        "Position": "(DOWN)",
+        "TP-1": "10:40",
+        "TP-2": "10:45"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "GBP/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "10:25",
+        "Position": "(DOWN)",
+        "TP-1": "10:30",
+        "TP-2": "10:35"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/TRY",
+        "Time Frame": "5 min",
+        "Start Time": "10:15",
+        "Position": "(UP)",
+        "TP-1": "10:20",
+        "TP-2": "10:25"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PKR",
+        "Time Frame": "5 min",
+        "Start Time": "09:15",
+        "Position": "(UP)",
+        "TP-1": "09:20",
+        "TP-2": "09:25"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PHP",
+        "Time Frame": "5 min",
+        "Start Time": "09:00",
+        "Position": "(DOWN)",
+        "TP-1": "09:05",
+        "TP-2": "09:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "23:50",
+        "Position": "(DOWN)",
+        "TP-1": "23:55",
+        "TP-2": "23:55"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/NGN",
+        "Time Frame": "5 min",
+        "Start Time": "23:20",
+        "Position": "(UP)",
+        "TP-1": "23:25",
+        "TP-2": "23:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/NGN",
+        "Time Frame": "5 min",
+        "Start Time": "22:20",
+        "Position": "(UP)",
+        "TP-1": "22:25",
+        "TP-2": "22:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "22:10",
+        "Position": "(DOWN)",
+        "TP-1": "22:15",
+        "TP-2": "22:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PKR",
+        "Time Frame": "5 min",
+        "Start Time": "22:00",
+        "Position": "(DOWN)",
+        "TP-1": "22;05",
+        "TP-2": "22:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/BDT",
+        "Time Frame": "5 min",
+        "Start Time": "21:05",
+        "Position": "(DOWN)",
+        "TP-1": "21:10",
+        "TP-2": "21:15"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/COP",
+        "Time Frame": "5 min",
+        "Start Time": "18:05",
+        "Position": "(DOWN)",
+        "TP-1": "18:10",
+        "TP-2": "18:15"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PHP",
+        "Time Frame": "5 min",
+        "Start Time": "17:50",
+        "Position": "(UP)",
+        "TP-1": "17:55",
+        "TP-2": "18:00"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "17:40",
+        "Position": "(DOWN)",
+        "TP-1": "17:45",
+        "TP-2": "17:50"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/NZD",
+        "Time Frame": "5 min",
+        "Start Time": "17:30",
+        "Position": "(UP)",
+        "TP-1": "17:35",
+        "TP-2": "17:40"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/TRY",
+        "Time Frame": "5 min",
+        "Start Time": "17:10",
+        "Position": "(UP)",
+        "TP-1": "17:15",
+        "TP-2": "17:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/USD",
+        "Time Frame": "5 min",
+        "Start Time": "17:00",
+        "Position": "(UP)",
+        "TP-1": "17:05",
+        "TP-2": "17:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "14:10",
+        "Position": "(UP)",
+        "TP-1": "14:15",
+        "TP-2": "14:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/AUD",
+        "Time Frame": "5 min",
+        "Start Time": "13:55",
+        "Position": "(UP)",
+        "TP-1": "14:00",
+        "TP-2": "14:05"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "13:40",
+        "Position": "(UP)",
+        "TP-1": "13:45",
+        "TP-2": "13:50"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/GBP",
+        "Time Frame": "5 min",
+        "Start Time": "13:30",
+        "Position": "(UP)",
+        "TP-1": "13:35",
+        "TP-2": "13:40"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "13:20",
+        "Position": "(UP)",
+        "TP-1": "13:25",
+        "TP-2": "13:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "13:00",
+        "Position": "(DOWN)",
+        "TP-1": "13:05",
+        "TP-2": "13:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "10:15",
+        "Position": "(DOWN)",
+        "TP-1": "10:20",
+        "TP-2": "10:25"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/ARS",
+        "Time Frame": "5 min",
+        "Start Time": "10:00",
+        "Position": "(UP)",
+        "TP-1": "10:05",
+        "TP-2": "10:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PKR",
+        "Time Frame": "5 min",
+        "Start Time": "09:45",
+        "Position": "(UP)",
+        "TP-1": "09:50",
+        "TP-2": "09:55"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/ CAD",
+        "Time Frame": "5 min",
+        "Start Time": "09:25",
+        "Position": "(UP)",
+        "TP-1": "09:30",
+        "TP-2": "09:35"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/NGN",
+        "Time Frame": "5 min",
+        "Start Time": "09:10",
+        "Position": "(DOWN)",
+        "TP-1": "09:15",
+        "TP-2": "09:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/MXN",
+        "Time Frame": "5 min",
+        "Start Time": "09:00",
+        "Position": "(UP)",
+        "TP-1": "09:05",
+        "TP-2": "09:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "22:10",
+        "Position": "(UP)",
+        "TP-1": "22:15",
+        "TP-2": "22:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "22:00",
+        "Position": "(UP)",
+        "TP-1": "22:05",
+        "TP-2": "22:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/MXN",
+        "Time Frame": "5 min",
+        "Start Time": "21:40",
+        "Position": "(DOWN)",
+        "TP-1": "21:45",
+        "TP-2": "21:50"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "21:30",
+        "Position": "(DOWN)",
+        "TP-1": "21:35",
+        "TP-2": "21:40"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "GBP/USD",
+        "Time Frame": "5 min",
+        "Start Time": "21:20",
+        "Position": "(DOWN)",
+        "TP-1": "21:25",
+        "TP-2": "21:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD,l/EGP",
+        "Time Frame": "5 min",
+        "Start Time": "21:00",
+        "Position": "(UP)",
+        "TP-1": "21:05",
+        "TP-2": "21:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/EGP",
+        "Time Frame": "5 min",
+        "Start Time": "18:35",
+        "Position": "(UP)",
+        "TP-1": "18:40",
+        "TP-2": "18:45"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/INR",
+        "Time Frame": "5 min",
+        "Start Time": "18:25",
+        "Position": "(DOWN)",
+        "TP-1": "18:30",
+        "TP-2": "18:35"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PKR",
+        "Time Frame": "5 min",
+        "Start Time": "18:05",
+        "Position": "(UP)",
+        "TP-1": "18:10",
+        "TP-2": "18:15"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "GBP/NZD",
+        "Time Frame": "5 min",
+        "Start Time": "17:50",
+        "Position": "(DOWN)",
+        "TP-1": "17:55",
+        "TP-2": "18:00"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/COP",
+        "Time Frame": "5 min",
+        "Start Time": "17:40",
+        "Position": "(DOWN)",
+        "TP-1": "17:45",
+        "TP-2": "17:50"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/TRY",
+        "Time Frame": "5 min",
+        "Start Time": "17:00",
+        "Position": "(UP)",
+        "TP-1": "17:05",
+        "TP-2": "17:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PHP",
+        "Time Frame": "5 min",
+        "Start Time": "14:20",
+        "Position": "(UP)",
+        "TP-1": "14:25",
+        "TP-2": "14:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/AUD",
+        "Time Frame": "5 min",
+        "Start Time": "14:00",
+        "Position": "(UP)",
+        "TP-1": "14:05",
+        "TP-2": "14:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "GBP/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "13:50",
+        "Position": "(UP)",
+        "TP-1": "13:55",
+        "TP-2": "14:00"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/AUD",
+        "Time Frame": "5 min",
+        "Start Time": "13:40",
+        "Position": "(DOWN)",
+        "TP-1": "13:45",
+        "TP-2": "13:50"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/BDT",
+        "Time Frame": "5 min",
+        "Start Time": "13:15",
+        "Position": "(UP)",
+        "TP-1": "13:20",
+        "TP-2": "13:25"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "GBP/NZD",
+        "Time Frame": "5 min",
+        "Start Time": "13:00",
+        "Position": "(UP)",
+        "TP-1": "13:05",
+        "TP-2": "13:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "GBP/USD",
+        "Time Frame": "5 min",
+        "Start Time": "10:10",
+        "Position": "(UP)",
+        "TP-1": "10:15",
+        "TP-2": "10:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "09:50",
+        "Position": "(UP)",
+        "TP-1": "09:55",
+        "TP-2": "10:00"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/MXN",
+        "Time Frame": "5 min",
+        "Start Time": "09:30",
+        "Position": "(DOWN)",
+        "TP-1": "09:35",
+        "TP-2": "09:40"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "09:20",
+        "Position": "(DOWN)",
+        "TP-1": "09:25",
+        "TP-2": "09:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "09:10",
+        "Position": "(DOWN)",
+        "TP-1": "09:15",
+        "TP-2": "09:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "09:00",
+        "Position": "(DOWN)",
+        "TP-1": "09:05",
+        "TP-2": "09:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "22:20",
+        "Position": "(DOWN)",
+        "TP-1": "22:25",
+        "TP-2": "22:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "22:05",
+        "Position": "(UP)",
+        "TP-1": "22:10",
+        "TP-2": "22:15"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PHP",
+        "Time Frame": "5 min",
+        "Start Time": "21:45",
+        "Position": "(UP)",
+        "TP-1": "21:50",
+        "TP-2": "21:55"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "21:35",
+        "Position": "(DOWN)",
+        "TP-1": "21:40",
+        "TP-2": "21:45"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "21:10",
+        "Position": "(UP)",
+        "TP-1": "21:15",
+        "TP-2": "21:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "21:00",
+        "Position": "(UP)",
+        "TP-1": "21:05",
+        "TP-2": "21:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "18:55",
+        "Position": "(UP)",
+        "TP-1": "19:00",
+        "TP-2": "19:05"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PHP",
+        "Time Frame": "5 min",
+        "Start Time": "18:30",
+        "Position": "(UP)",
+        "TP-1": "18:35",
+        "TP-2": "18:40"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "18:20",
+        "Position": "(UP)",
+        "TP-1": "18:25",
+        "TP-2": "18:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/SGD",
+        "Time Frame": "5 min",
+        "Start Time": "18:00",
+        "Position": "(UP)",
+        "TP-1": "18:05",
+        "TP-2": "18:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/DZD",
+        "Time Frame": "5 min",
+        "Start Time": "17:45",
+        "Position": "(UP)",
+        "TP-1": "17:50",
+        "TP-2": "17:55"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/NZD",
+        "Time Frame": "5 min",
+        "Start Time": "17:'10",
+        "Position": "(DOWN)",
+        "TP-1": "17:15",
+        "TP-2": "17:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "GBP/USD",
+        "Time Frame": "5 min",
+        "Start Time": "14:00",
+        "Position": "(UP)",
+        "TP-1": "14:05",
+        "TP-2": "14:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "13:50",
+        "Position": "(UP)",
+        "TP-1": "13:55",
+        "TP-2": "14:00"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/NZD",
+        "Time Frame": "5 min",
+        "Start Time": "13:40",
+        "Position": "(DOWN)",
+        "TP-1": "13:45",
+        "TP-2": "13:50"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/ARS",
+        "Time Frame": "5 min",
+        "Start Time": "13:30",
+        "Position": "(UP)",
+        "TP-1": "13:35",
+        "TP-2": "13:40"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/TRY",
+        "Time Frame": "5 min",
+        "Start Time": "13:15",
+        "Position": "(DOWN)",
+        "TP-1": "13:20",
+        "TP-2": "13:25"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/DZD",
+        "Time Frame": "5 min",
+        "Start Time": "13:00",
+        "Position": "(UP)",
+        "TP-1": "13:05",
+        "TP-2": "13:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/DZD",
+        "Time Frame": "5 min",
+        "Start Time": "10:10",
+        "Position": "(UP)",
+        "TP-1": "10:15",
+        "TP-2": "10:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "09:50",
+        "Position": "(DOWN)",
+        "TP-1": "09:55",
+        "TP-2": "10:00"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/COP",
+        "Time Frame": "5 min",
+        "Start Time": "09:40",
+        "Position": "(DOWN)",
+        "TP-1": "09:45",
+        "TP-2": "09:50"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/BDT",
+        "Time Frame": "5 min",
+        "Start Time": "09:30",
+        "Position": "(UP)",
+        "TP-1": "09:35",
+        "TP-2": "09:40"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PKR",
+        "Time Frame": "5 min",
+        "Start Time": "09:15",
+        "Position": "(UP)",
+        "TP-1": "09:20",
+        "TP-2": "09:25"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/ARS",
+        "Time Frame": "5 min",
+        "Start Time": "09:00",
+        "Position": "(UP)",
+        "TP-1": "09:05",
+        "TP-2": "09:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/AUD",
+        "Time Frame": "5 min",
+        "Start Time": "22:05",
+        "Position": "(DOWN)",
+        "TP-1": "22:10",
+        "TP-2": "22:15"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/MXN",
+        "Time Frame": "5 min",
+        "Start Time": "21:55",
+        "Position": "(UP)",
+        "TP-1": "22:00",
+        "TP-2": "22:05"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "21:45",
+        "Position": "(DOWN)",
+        "TP-1": "21:50",
+        "TP-2": "21:55"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "21:35",
+        "Position": "(DOWN)",
+        "TP-1": "21:40",
+        "TP-2": "21:45"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "21:15",
+        "Position": "(DOWN)",
+        "TP-1": "21:20",
+        "TP-2": "21:25"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "21:00",
+        "Position": "(UP)",
+        "TP-1": "21:05",
+        "TP-2": "21:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/NZD",
+        "Time Frame": "5 min",
+        "Start Time": "18:30",
+        "Position": "(UP)",
+        "TP-1": "18:35",
+        "TP-2": "18:40"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "18:10",
+        "Position": "(UP)",
+        "TP-1": "18:15",
+        "TP-2": "18:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/DZD",
+        "Time Frame": "5 min",
+        "Start Time": "17:45",
+        "Position": "(UP)",
+        "TP-1": "17:50",
+        "TP-2": "17:55"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/USD",
+        "Time Frame": "5 min",
+        "Start Time": "17:35",
+        "Position": "(DOWN)",
+        "TP-1": "17:40",
+        "TP-2": "17:45"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/GBP",
+        "Time Frame": "5 min",
+        "Start Time": "17:25",
+        "Position": "(UP)",
+        "TP-1": "17:30",
+        "TP-2": "17:35"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/BDT",
+        "Time Frame": "5 min",
+        "Start Time": "17:15",
+        "Position": "(DOWN)",
+        "TP-1": "17:20",
+        "TP-2": "17:25"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/INR",
+        "Time Frame": "5 min",
+        "Start Time": "14:10",
+        "Position": "(DOWN)",
+        "TP-1": "14:15",
+        "TP-2": "14:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/ARS",
+        "Time Frame": "5 min",
+        "Start Time": "13:55",
+        "Position": "(DOWN)",
+        "TP-1": "14:00",
+        "TP-2": "14:05"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/BDT",
+        "Time Frame": "5 min",
+        "Start Time": "13:45",
+        "Position": "(UP)",
+        "TP-1": "13:50",
+        "TP-2": "13:55"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/GBP",
+        "Time Frame": "5 min",
+        "Start Time": "13:30",
+        "Position": "(DOWN)",
+        "TP-1": "13:35",
+        "TP-2": "13:40"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/NGN",
+        "Time Frame": "5 min",
+        "Start Time": "13:20",
+        "Position": "(UP)",
+        "TP-1": "13:25",
+        "TP-2": "13:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/TRY",
+        "Time Frame": "5 min",
+        "Start Time": "13:00",
+        "Position": "(DOWN)",
+        "TP-1": "13:05",
+        "TP-2": "13:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/TRY",
+        "Time Frame": "5 min",
+        "Start Time": "10:20",
+        "Position": "(UP)",
+        "TP-1": "10:25",
+        "TP-2": "10:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/USD",
+        "Time Frame": "5 min",
+        "Start Time": "10:00",
+        "Position": "(DOWN)",
+        "TP-1": "10:05",
+        "TP-2": "10:00"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "09:50",
+        "Position": "(DOWN)",
+        "TP-1": "09:55",
+        "TP-2": "10:00"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "GBP/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "09:40",
+        "Position": "(UP)",
+        "TP-1": "09:45",
+        "TP-2": "09:50"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/TRY",
+        "Time Frame": "5 min",
+        "Start Time": "09:20",
+        "Position": "(UP)",
+        "TP-1": "09:25",
+        "TP-2": "09:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/NGN",
+        "Time Frame": "5 min",
+        "Start Time": "09:10",
+        "Position": "(DOWN)",
+        "TP-1": "09:15",
+        "TP-2": "09:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "22:00",
+        "Position": "(UP)",
+        "TP-1": "22:05",
+        "TP-2": "22:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "21:48",
+        "Position": "(DOWN)",
+        "TP-1": "21:53",
+        "TP-2": "21:58"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "21:38",
+        "Position": "(UP)",
+        "TP-1": "21:43",
+        "TP-2": "21:48"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/BDT",
+        "Time Frame": "5 min",
+        "Start Time": "21:23",
+        "Position": "(DOWN)",
+        "TP-1": "21:28",
+        "TP-2": "21:33"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/NGN",
+        "Time Frame": "5 min",
+        "Start Time": "21:08",
+        "Position": "(DOWN)",
+        "TP-1": "21:13",
+        "TP-2": "21:18"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/SGD",
+        "Time Frame": "5 min",
+        "Start Time": "21:00",
+        "Position": "(DOWN)",
+        "TP-1": "21:05",
+        "TP-2": "21:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/INR",
+        "Time Frame": "5 min",
+        "Start Time": "18:13",
+        "Position": "(DOWN)",
+        "TP-1": "18:18",
+        "TP-2": "18:23"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "17:55",
+        "Position": "(UP)",
+        "TP-1": "18:00",
+        "TP-2": "18:05"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "17:42",
+        "Position": "(UP)",
+        "TP-1": "17:47",
+        "TP-2": "17:52"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/DZD",
+        "Time Frame": "5 min",
+        "Start Time": "17:34",
+        "Position": "(UP)",
+        "TP-1": "17:39",
+        "TP-2": "17:44"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "17:22",
+        "Position": "(UP)",
+        "TP-1": "17;27",
+        "TP-2": "17:32"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "17:00",
+        "Position": "(DOWN)",
+        "TP-1": "17:05",
+        "TP-2": "17:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "14:40",
+        "Position": "(DOWN)",
+        "TP-1": "14:45",
+        "TP-2": "14:50"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "14:25",
+        "Position": "(UP)",
+        "TP-1": "14:30",
+        "TP-2": "14:35"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/BDT",
+        "Time Frame": "5 min",
+        "Start Time": "14:07",
+        "Position": "(UP)",
+        "TP-1": "14:12",
+        "TP-2": "14:17"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "13:47",
+        "Position": "(DOWN)",
+        "TP-1": "13:52",
+        "TP-2": "13:57"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "GBP/AUD",
+        "Time Frame": "5 min",
+        "Start Time": "13:37",
+        "Position": "(DOWN)",
+        "TP-1": "13:42",
+        "TP-2": "13:47"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/ARS",
+        "Time Frame": "5 min",
+        "Start Time": "13:10",
+        "Position": "(DOWN)",
+        "TP-1": "13:15",
+        "TP-2": "13:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "10:22",
+        "Position": "(DOWN)",
+        "TP-1": "10:27",
+        "TP-2": "10:32"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/NGN",
+        "Time Frame": "5 min",
+        "Start Time": "10:03",
+        "Position": "(UP)",
+        "TP-1": "10:08",
+        "TP-2": "10:13"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "09:50",
+        "Position": "(DOWN)",
+        "TP-1": "09:55",
+        "TP-2": "10:00"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "GBP/AUD",
+        "Time Frame": "5 min",
+        "Start Time": "09:38",
+        "Position": "(UP)",
+        "TP-1": "09:43",
+        "TP-2": "09:48"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/AUD",
+        "Time Frame": "5 min",
+        "Start Time": "09:25",
+        "Position": "(DOWN)",
+        "TP-1": "09:30",
+        "TP-2": "09:35"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/TRY",
+        "Time Frame": "5 min",
+        "Start Time": "09:03",
+        "Position": "(UP)",
+        "TP-1": "09:08",
+        "TP-2": "09:13"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "22:20",
+        "Position": "(UP)",
+        "TP-1": "22:25",
+        "TP-2": "22:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/DZD",
+        "Time Frame": "5 min",
+        "Start Time": "22:13",
+        "Position": "(UP)",
+        "TP-1": "22:18",
+        "TP-2": "22:23"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/GBP",
+        "Time Frame": "5 min",
+        "Start Time": "21:55",
+        "Position": "(DOWN)",
+        "TP-1": "22:00",
+        "TP-2": "22:05"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "21:15",
+        "Position": "(UP)",
+        "TP-1": "21:20",
+        "TP-2": "21:25"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/EGP",
+        "Time Frame": "5 min",
+        "Start Time": "21:07",
+        "Position": "(UP)",
+        "TP-1": "21:12",
+        "TP-2": "21:17"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "21:00",
+        "Position": "(DOWN)",
+        "TP-1": "21:05",
+        "TP-2": "21:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "18:35",
+        "Position": "(UP)",
+        "TP-1": "18:40",
+        "TP-2": "18:45"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "18:25",
+        "Position": "(DOWN)",
+        "TP-1": "18:30",
+        "TP-2": "18:35"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PHP",
+        "Time Frame": "5 min",
+        "Start Time": "18:02",
+        "Position": "(UP)",
+        "TP-1": "18:07",
+        "TP-2": "18:12"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "17:53",
+        "Position": "(UP)",
+        "TP-1": "17:58",
+        "TP-2": "18:03"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/MXN",
+        "Time Frame": "5 min",
+        "Start Time": "17:35",
+        "Position": "(UP)",
+        "TP-1": "17:40",
+        "TP-2": "17:45"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PKR",
+        "Time Frame": "5 min",
+        "Start Time": "17:13",
+        "Position": "(UP)",
+        "TP-1": "17:18",
+        "TP-2": "17:23"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "14:13",
+        "Position": "(UP)",
+        "TP-1": "14:18",
+        "TP-2": "14:23"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PHP",
+        "Time Frame": "5 min",
+        "Start Time": "13:55",
+        "Position": "(UP)",
+        "TP-1": "14:00",
+        "TP-2": "14:05"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "13:37",
+        "Position": "(UP)",
+        "TP-1": "13:42",
+        "TP-2": "13:47"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/DZD",
+        "Time Frame": "5 min",
+        "Start Time": "13:30",
+        "Position": "(UP)",
+        "TP-1": "13:35",
+        "TP-2": "13:40"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "13:13",
+        "Position": "(DOWN)",
+        "TP-1": "13:18",
+        "TP-2": "13:23"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/IDR",
+        "Time Frame": "5 min",
+        "Start Time": "13:00",
+        "Position": "(DOWN)",
+        "TP-1": "13:05",
+        "TP-2": "13:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "12:03",
+        "Position": "(DOWN)",
+        "TP-1": "12:08",
+        "TP-2": "12:13"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PKR",
+        "Time Frame": "5 min",
+        "Start Time": "11:44",
+        "Position": "(DOWN)",
+        "TP-1": "11:49",
+        "TP-2": "11:54"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/COP",
+        "Time Frame": "5 min",
+        "Start Time": "11:38",
+        "Position": "(UP)",
+        "TP-1": "11:43",
+        "TP-2": "11:48"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "11:32",
+        "Position": "(DOWN)",
+        "TP-1": "11:37",
+        "TP-2": "11:42"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/MXN",
+        "Time Frame": "5 min",
+        "Start Time": "11:26",
+        "Position": "(UP)",
+        "TP-1": "11:31",
+        "TP-2": "11:36"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/EGP",
+        "Time Frame": "5 min",
+        "Start Time": "09:00",
+        "Position": "(UP)",
+        "TP-1": "09:05",
+        "TP-2": "09:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/EGP",
+        "Time Frame": "5 min",
+        "Start Time": "22:20",
+        "Position": "(DOWN)",
+        "TP-1": "22:25",
+        "TP-2": "22:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/DZD",
+        "Time Frame": "5 min",
+        "Start Time": "22:02",
+        "Position": "(UP)",
+        "TP-1": "22:07",
+        "TP-2": "22:12"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/USD",
+        "Time Frame": "5 min",
+        "Start Time": "21:45",
+        "Position": "(UP)",
+        "TP-1": "21:50",
+        "TP-2": "21:55"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/NGN",
+        "Time Frame": "5 min",
+        "Start Time": "21:28",
+        "Position": "(UP)",
+        "TP-1": "21:33",
+        "TP-2": "21:38"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "GBP/AUD",
+        "Time Frame": "5 min",
+        "Start Time": "21:08",
+        "Position": "(UP)",
+        "TP-1": "21:13",
+        "TP-2": "21:18"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "21:00",
+        "Position": "(DOWN)",
+        "TP-1": "21:05",
+        "TP-2": "21:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "18:40",
+        "Position": "(UP)",
+        "TP-1": "18:45",
+        "TP-2": "18:50"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/NGN",
+        "Time Frame": "5 min",
+        "Start Time": "18:27",
+        "Position": "(DOWN)",
+        "TP-1": "18:32",
+        "TP-2": "18:37"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "18:10",
+        "Position": "(UP)",
+        "TP-1": "18:15",
+        "TP-2": "18:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/BDT",
+        "Time Frame": "5 min",
+        "Start Time": "17:35",
+        "Position": "(UP)",
+        "TP-1": "17:40",
+        "TP-2": "17:45"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/MXN",
+        "Time Frame": "5 min",
+        "Start Time": "17:25",
+        "Position": "(DOWN)",
+        "TP-1": "17:30",
+        "TP-2": "17:35"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZF/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "17:00",
+        "Position": "(UP)",
+        "TP-1": "17:05",
+        "TP-2": "17:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "14:33",
+        "Position": "(DOWN)",
+        "TP-1": "14:38",
+        "TP-2": "14:43"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/BDT",
+        "Time Frame": "5 min",
+        "Start Time": "14:00",
+        "Position": "(DOWN)",
+        "TP-1": "14:05",
+        "TP-2": "14:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CHF/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "13:45",
+        "Position": "(DOWN)",
+        "TP-1": "13:50",
+        "TP-2": "13:55"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "13:33",
+        "Position": "(UP)",
+        "TP-1": "13:38",
+        "TP-2": "13:43"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/USD",
+        "Time Frame": "5 min",
+        "Start Time": "13:17",
+        "Position": "(UP)",
+        "TP-1": "13:22",
+        "TP-2": "13:27"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "13:00",
+        "Position": "(UP)",
+        "TP-1": "13:05",
+        "TP-2": "13:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "10:42",
+        "Position": "(DOWN)",
+        "TP-1": "10:47",
+        "TP-2": "10:52"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/MXN",
+        "Time Frame": "5 min",
+        "Start Time": "10:22",
+        "Position": "(DOWN)",
+        "TP-1": "10:27",
+        "TP-2": "10:32"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "10:13",
+        "Position": "(DOWN)",
+        "TP-1": "10:18",
+        "TP-2": "10:23"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/NGN",
+        "Time Frame": "5 min",
+        "Start Time": "09:45",
+        "Position": "(DOWN)",
+        "TP-1": "09:50",
+        "TP-2": "09:55"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "09:20",
+        "Position": "(DOWN)",
+        "TP-1": "09:25",
+        "TP-2": "09:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/CAD",
+        "Time Frame": "5 min",
+        "Start Time": "09:00",
+        "Position": "(UP)",
+        "TP-1": "09:05",
+        "TP-2": "09:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/INR",
+        "Time Frame": "5 min",
+        "Start Time": "22:25",
+        "Position": "(DOWN)",
+        "TP-1": "22:30",
+        "TP-2": "22:35"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "22:17",
+        "Position": "(DOWN)",
+        "TP-1": "22:22",
+        "TP-2": "22:27"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "22:10",
+        "Position": "(UP)",
+        "TP-1": "22:15",
+        "TP-2": "22:20"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "21:55",
+        "Position": "(UP)",
+        "TP-1": "22:00",
+        "TP-2": "22:05"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/IDR",
+        "Time Frame": "5 min",
+        "Start Time": "21:38",
+        "Position": "(DOWN)",
+        "TP-1": "21:43",
+        "TP-2": "21:48"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PKR",
+        "Time Frame": "5 min",
+        "Start Time": "21:27",
+        "Position": "(UP)",
+        "TP-1": "21:32",
+        "TP-2": "21:37"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/MXN",
+        "Time Frame": "5 min",
+        "Start Time": "19;03",
+        "Position": "(DOWN)",
+        "TP-1": "19;08",
+        "TP-2": "19:13"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "18:26",
+        "Position": "(DOWN)",
+        "TP-1": "18:31",
+        "TP-2": "18:36"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/DZD",
+        "Time Frame": "5 min",
+        "Start Time": "18:13",
+        "Position": "(DOWN)",
+        "TP-1": "18:18",
+        "TP-2": "18:23"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/MXN",
+        "Time Frame": "5 min",
+        "Start Time": "17:42",
+        "Position": "(DOWN)",
+        "TP-1": "17:47",
+        "TP-2": "17:52"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/PHP",
+        "Time Frame": "5 min",
+        "Start Time": "17:25",
+        "Position": "(UP)",
+        "TP-1": "17:30",
+        "TP-2": "17:35"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/COP",
+        "Time Frame": "5 min",
+        "Start Time": "17:07",
+        "Position": "(UP)",
+        "TP-1": "17:12",
+        "TP-2": "17:17"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/COP",
+        "Time Frame": "5 min",
+        "Start Time": "14:15",
+        "Position": "(UP)",
+        "TP-1": "14:20",
+        "TP-2": "14:25"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "NZD/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "14:02",
+        "Position": "(DOWN)",
+        "TP-1": "14:07",
+        "TP-2": "14:12"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/TRY",
+        "Time Frame": "5 min",
+        "Start Time": "13:50",
+        "Position": "(UP)",
+        "TP-1": "13:55",
+        "TP-2": "14:00"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "AUD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "13:20",
+        "Position": "(UP)",
+        "TP-1": "13:25",
+        "TP-2": "13:30"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/TRY",
+        "Time Frame": "5 min",
+        "Start Time": "13:12",
+        "Position": "(UP)",
+        "TP-1": "13:17",
+        "TP-2": "13:22"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/EGP",
+        "Time Frame": "5 min",
+        "Start Time": "13:00",
+        "Position": "(DOWN)",
+        "TP-1": "13:05",
+        "TP-2": "13:10"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "EUR/JPY",
+        "Time Frame": "5 min",
+        "Start Time": "09:56",
+        "Position": "(DOWN)",
+        "TP-1": "10:01",
+        "TP-2": "10:06"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "USD/NGN",
+        "Time Frame": "5 min",
+        "Start Time": "09:48",
+        "Position": "(UP)",
+        "TP-1": "09:53",
+        "TP-2": "09:58"
+    },
+    {
+        "Time Zone": "UTC+4",
+        "Currency Pair": "CAD/CHF",
+        "Time Frame": "5 min",
+        "Start Time": "09:38",
+        "Position": "(UP)",
+        "TP-1": "09:43",
+        "TP-2": "09:48"
+    }
+]

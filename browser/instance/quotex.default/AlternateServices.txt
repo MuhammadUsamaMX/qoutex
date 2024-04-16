@@ -1,0 +1,4 @@
+https:spocs.getpocket.com:443:.::3	0	19828	https:spocs.getpocket.com:443:spocs.getpocket.com:443::n:1715797467:h3:y:1713205466:n::|n:y:
+https:www.google-analytics.com:443:.:^partitionKey=%28https%2Cqxbroker.com%29:3	0	19828	https:www.google-analytics.com:443:www.google-analytics.com:443::n:1715797592:h3:y:1713205466:n:^partitionKey=%28https%2Cqxbroker.com%29:|n:y:
+https:fonts.googleapis.com:443:.:^partitionKey=%28https%2Cqxbroker.com%29:3	0	19828	https:fonts.googleapis.com:443:fonts.googleapis.com:443::n:1715797586:h3:y:1713205577:n:^partitionKey=%28https%2Cqxbroker.com%29:|n:y:
+https:www.googletagmanager.com:443:.:^partitionKey=%28https%2Cqxbroker.com%29:3	0	19828	https:www.googletagmanager.com:443:www.googletagmanager.com:443::n:1715797469:h3:y:1713205466:n:^partitionKey=%28https%2Cqxbroker.com%29:|n:y:

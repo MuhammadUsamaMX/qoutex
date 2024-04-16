@@ -1,0 +1,4 @@
+contile.services.mozilla.com	3	19828	1744741467591,1,0
+location.services.mozilla.com	1	19828	1744741496365,1,1
+aus5.mozilla.org	0	19828	1744741495667,1,0
+qxbroker.com^partitionKey=%28https%2Cqxbroker.com%29	3	19828	1776277468703,1,0
