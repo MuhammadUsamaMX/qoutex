@@ -160,13 +160,44 @@ async def buy_simple():
     print("Leaving...")
     client.close()
 
+async def buy_and_check_win(amount_percentage = 5,asset = "USDPKR_otc", direction = "put", duration = 5):
+    check_connect, message = await connect()
+    if check_connect:
+        current_balance=  await client.get_balance()
+        print("Current balance: ",current_balance)
 
-async def buy_and_check_win_3(amount = 500,asset = "USDPKR_otc", direction = "put", duration = 5):  # in seconds
+        asset_query = asset_parse(asset)
+        asset_open = client.check_asset_open(asset_query)
+        if asset_open[2]:
+            print("OK: Asset is open.")
+            status, buy_info = await client.buy(current_balance*(amount_percentage)/100, asset, direction, duration)
+            print(status, buy_info)
+            if status:
+                print("Waiting for result...")
+                if await client.check_win(buy_info["id"]):
+                    print(f"\nWin!!! \nWe beat kids!!!\nProfit: R$ {client.get_profit()}")
+                else:
+                    print(f"\nLoss!!! \nWe lost kid!!!\nLoss: R$ {client.get_profit()}")
+            else:
+                print("Operation failed!!!")
+        else:
+            print("ERROR: Asset is closed.")
+        print("Current Balance: ", await client.get_balance())
+    print("Exiting...")
+    client.close()
+
+
+async def buy_and_check_win_3(amount_percentage = 5,asset = "USDPKR_otc", direction = "put", duration = 5):  # in seconds
     numbertry=1
+    check_connect, message = await connect()
+    if check_connect:
+        current_balance=  await client.get_balance()
+        print("Current balance: ", current_balance)
+        amount=current_balance*(amount_percentage)/100 
+        client.close() 
     while(numbertry < 4):
         check_connect, message = await connect()
-        if check_connect:
-            print("Current balance: ", await client.get_balance())        
+        if check_connect:   
             asset_query = asset_parse(asset)
             asset_open = client.check_asset_open(asset_query)
             if asset_open[2]:

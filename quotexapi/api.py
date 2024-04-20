@@ -214,7 +214,7 @@ class QuotexAPI(object):
     async def autenticate(self):
         await self.check_session()
         if not self.session_data.get("token"):
-            print("Autenticando usuário...")
+            print("Authenticating user...")
             await self.login(
                 self.username,
                 self.password,
@@ -222,7 +222,7 @@ class QuotexAPI(object):
                 self.user_data_dir
             )
             if self.session_data.get("token"):
-                print("Login realizado com sucesso!!!")
+                print("Login successfully!!!")
 
     async def start_websocket(self, reconnect):
         if not reconnect:

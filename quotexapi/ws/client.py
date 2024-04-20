@@ -102,7 +102,7 @@ class WebsocketClient(object):
             except:
                 pass
             if str(message) == "41":
-                print("Evento de desconexão disparado pela plataforma, fazendo reconexão automática.")
+                print("Disconnection event triggered by the platform, causing automatic reconnection.")
                 global_value.check_websocket_if_connect = 0
                 asyncio.run(self.api.reconnect())
             if "51-" in str(message):

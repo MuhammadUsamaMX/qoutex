@@ -1,0 +1,84 @@
+{
+    "Time Zone": "+4",
+    "Currency Pair": "USDBDT",
+    "Start Time": "22:15",
+    "Position": "put"
+}{
+    "Time Zone": "+4",
+    "Currency Pair": "USDBDT",
+    "Time Frame": "5 min",
+    "Start Time": "22:15",
+    "Position": "put",
+    "Start Time (Local)": "22:43"
+}
+{
+    "Time Zone": "+4",
+    "Currency Pair": "USDBDT",
+    "Time Frame": "5 min",
+    "Start Time": "22:15",
+    "Position": "put",
+    "Start Time (Local)": "22:43",
+    "System Local Timezone": "Asia/Karachi",
+    "Signal Timezone": "UTC+4"
+}
+{
+    "Time Zone": "+4",
+    "Currency Pair": "USDBDT",
+    "Time Frame": "5 min",
+    "Start Time": "22:15",
+    "Position": "put",
+    "Start Time (UTC)": "18:15",
+    "System Local Timezone (UTC)": "UTC",
+    "Signal Timezone (UTC)": ""
+}
+{
+    "Time Zone": "+4",
+    "Currency Pair": "USDBDT",
+    "Time Frame": "5 min",
+    "Start Time": "22:15",
+    "Position": "put",
+    "Start Time (UTC)": "18:15",
+    "System Local Timezone (UTC)": "PKT",
+    "Signal Timezone (UTC)": ""
+}
+--------------------------------------------------------
+{
+    "Time Zone": 4,
+    "Currency Pair": "USDBDT",
+    "Start Time": "22:15",
+    "Convered Start Time": "02:15",
+    "Position": "put"
+}
+{
+    "Time Zone": 7,
+    "Currency Pair": "USDBDT",
+    "Start Time": "22:15",
+    "Convered Start Time": "05:15",
+    "Position": "put"
+}
+{
+    "Time Zone": -14,
+    "Currency Pair": "USDBDT",
+    "Start Time": "22:15",
+    "Convered Start Time": "08:15",
+    "Position": "put"
+}
+{
+    "Currency Pair": "USDBDT",
+    "Position": "put"
+}
+{
+    "Currency Pair": "USDBDT",
+    "Convered Start Time": "08:15",
+    "Position": "put"
+}
+{
+    "Currency Pair": "USDBDT",
+    "Convered Start Time": "05:15",
+    "Position": "put"
+}
+{
+    "Currency Pair": "USDBDT",
+    "Convered Start Time": "08:15",
+    "Position": "call"
+}
