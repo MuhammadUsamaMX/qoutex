@@ -51,7 +51,7 @@ async def main():
     await client.start()
 
     # Define the Telegram entity (channel, group, etc.) ID
-    entity_id = -1001945788775  # Replace with your channel ID AMIR VIP SIGNALS (1001945788775)
+    entity_id = -1002009134814  # Replace with your channel ID AMIR VIP SIGNALS (1001945788775)
 
     # Event handler for new messages
     @client.on(events.NewMessage(chats=entity_id))
