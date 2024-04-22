@@ -1,3 +1,4 @@
-Temp/
-browser/
-settings/
+Temp/*
+browser/*
+settings/*
+session_name.session
