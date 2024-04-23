@@ -163,13 +163,11 @@ async def buy_simple():
 async def buy_and_check_win(amount_percentage = 5,asset = "USDPKR_otc", direction = "put", duration = 5):
     check_connect, message = await connect()
     if check_connect:
-        current_balance=  await client.get_balance()
-        print("Current balance: ",current_balance)
+        current_balance =  await client.get_balance()
+        # print("Current balance: ",current_balance)
 
         asset_query = asset_parse(asset)
-        asset_open = client.check_asset_open(asset_query)
-        if asset_open[2]:
-            print("OK: Asset is open.")
+        try:
             status, buy_info = await client.buy(current_balance*(amount_percentage)/100, asset, direction, duration)
             print(status, buy_info)
             if status:
@@ -178,11 +176,25 @@ async def buy_and_check_win(amount_percentage = 5,asset = "USDPKR_otc", directio
                     print(f"\nWin!!! \nWe beat kids!!!\nProfit: R$ {client.get_profit()}")
                 else:
                     print(f"\nLoss!!! \nWe lost kid!!!\nLoss: R$ {client.get_profit()}")
-            else:
-                print("Operation failed!!!")
-        else:
-            print("ERROR: Asset is closed.")
-        print("Current Balance: ", await client.get_balance())
+        except:
+            print("Operation failed!!!")
+
+        # asset_open = client.check_asset_open(asset_query)
+        # if asset_open[2]:
+        #     print("OK: Asset is open.")
+        #     status, buy_info = await client.buy(current_balance*(amount_percentage)/100, asset, direction, duration)
+        #     print(status, buy_info)
+        #     if status:
+        #         print("Waiting for result...")
+        #         if await client.check_win(buy_info["id"]):
+        #             print(f"\nWin!!! \nWe beat kids!!!\nProfit: R$ {client.get_profit()}")
+        #         else:
+        #             print(f"\nLoss!!! \nWe lost kid!!!\nLoss: R$ {client.get_profit()}")
+        #     else:
+        #         print("Operation failed!!!")
+        # else:
+        #     print("ERROR: Asset is closed.")
+        # print("Current Balance: ", await client.get_balance())
     print("Exiting...")
     client.close()
 
@@ -194,33 +206,31 @@ async def buy_and_check_win_3(amount_percentage = 5,asset = "USDPKR_otc", direct
         current_balance=  await client.get_balance()
         print("Current balance: ", current_balance)
         amount=current_balance*(amount_percentage)/100 
-        client.close() 
-    while(numbertry < 4):
+        # client.close() 
         check_connect, message = await connect()
+    while(numbertry < 4):
+        
         if check_connect:   
-            asset_query = asset_parse(asset)
-            asset_open = client.check_asset_open(asset_query)
-            if asset_open[2]:
-                    print("OK: Asset is open.")
-                    
-                    status, buy_info = await client.buy(amount, asset, direction, duration)
-                    print(status, buy_info)
-                    if status:
+            # asset_query = asset_parse(asset)
+            # asset_open = client.check_asset_open(asset_query)
+            try:
+                status, buy_info = await client.buy(amount, asset, direction, duration)
+                print(status, buy_info)
+                if status:
                         print(f"Waiting result of Attempt...{numbertry}")
                         if await client.check_win(buy_info["id"]):
                             print(f"\nWin!!! \nWe beat kids!!!\nProfit:R$ {client.get_profit()}")
+                            # client.close()
                             break
                         else:
                             print(f"\nLoss!!! \nWe lost kid!!!\nLoss: R$ {client.get_profit()}")
-                            client.close()
+                            # client.close()
                             numbertry+=1
                             amount=amount*2
                             # if(numbertry==3)
-                    else:
-                        print("Operation failed!!!")
-                
-            else:
-                print("ERRO:Asset is closed.")
+            except:
+                print("Operation failed!!!")
+
             print("Current Balance: ", await client.get_balance())
         print("Leaving...")
     client.close()
@@ -281,7 +291,7 @@ async def assets_open():
     if check_connect:
         print("Check Asset Open")
         for i in client.get_all_asset_name():
-            print(i)
+            # print(i)
             print(i, client.check_asset_open(i))
     print("Leaving...")
     client.close()
@@ -350,10 +360,10 @@ async def get_realtime_candle():
     client.close()
 
 
-async def get_realtime_sentiment():
+async def get_realtime_sentiment(asset = "USDPKR_otc"):
     check_connect, message = await connect()
     if check_connect:
-        asset = "EURUSD_otc"
+        # asset = "EURUSD_otc"
         asset_query = asset_parse(asset)
         asset_open = client.check_asset_open(asset_query)
         if asset_open[2]:
@@ -412,6 +422,8 @@ async def main():
                 return await buy_and_check_win()
             case "buy_and_check":
                 return await buy_and_check()
+            case "buy_and_check_win_3":
+                return await buy_and_check_win_3()
             case "buy_multiple":
                 return await buy_multiple()
             case "balance_refill":
