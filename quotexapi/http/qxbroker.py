@@ -51,12 +51,12 @@ class Browser(object):
             browser = playwright.firefox
             context = await browser.launch_persistent_context(
                 self.user_data_dir,
-                headless=True,
+                headless=False,
             )
             page = context.pages[0]
         else:
             browser = await playwright.firefox.launch(
-                headless=True,
+                headless=False,
             )
             context = await browser.new_context()
             page = await context.new_page()
@@ -64,8 +64,8 @@ class Browser(object):
         await page.set_extra_http_headers({
             'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0',
         })
-        await page.goto(f"{self.https_base_url}/pt/sign-in")
-        if page.url != f"{self.https_base_url}/pt/trade":
+        await page.goto(f"{self.https_base_url}/en/sign-in")
+        if page.url != f"{self.https_base_url}/en/trade":
             await page.get_by_role("textbox", name="E-mail").click()
             await page.get_by_role("textbox", name="E-mail").fill(self.username)
             await page.get_by_role("textbox", name="Senha").click()

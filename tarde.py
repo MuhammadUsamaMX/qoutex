@@ -31,7 +31,7 @@ async def wait_until_start(start_time):
     while True:
         current_time = datetime.now()
         remaining_seconds = (start_time - current_time.minute - 1) * 60 + (60 - current_time.second)
-        if remaining_seconds <= 28:  # Also start before 18 seconds
+        if remaining_seconds <= 18:  # Also start before 18 seconds
             break
         print(f"Remaining seconds: {remaining_seconds}")
         await asyncio.sleep(1)
@@ -51,7 +51,7 @@ async def main():
     await client.start()
 
     # Define the Telegram entity (channel, group, etc.) ID
-    entity_id = -1002009134814  # Replace with your channel ID AMIR VIP SIGNALS (1001945788775)
+    entity_id = -1001945788775  # Replace with your channel ID AMIR VIP SIGNALS (1001945788775)
 
     # Event handler for new messages
     @client.on(events.NewMessage(chats=entity_id))

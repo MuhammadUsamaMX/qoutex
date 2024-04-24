@@ -145,7 +145,7 @@ async def buy_simple():
     check_connect, message = await connect()
     if check_connect:
         amount = 50
-        asset = "USDPKR_otc"  # "EURUSD_otc"
+        asset = "USDINR_otc"  # "EURUSD_otc"
         direction = "call"
         duration = 60  # in seconds
         asset_query = asset_parse(asset)
@@ -199,40 +199,40 @@ async def buy_and_check_win(amount_percentage = 5,asset = "USDPKR_otc", directio
     client.close()
 
 
-async def buy_and_check_win_3(amount_percentage = 5,asset = "USDPKR_otc", direction = "put", duration = 5):  # in seconds
-    numbertry=1
+async def buy_and_check_win_3(amount_percentage = 1,asset = "USDEGP_otc", direction = "put", duration = 5):  # in seconds
+    
     check_connect, message = await connect()
-    if check_connect:
-        current_balance=  await client.get_balance()
-        print("Current balance: ", current_balance)
-        amount=current_balance*(amount_percentage)/100 
-        # client.close() 
-        check_connect, message = await connect()
-    while(numbertry < 4):
+    current_balance=  await client.get_balance()
+    amount=current_balance*(amount_percentage)/100 
+    
+    try:   
+                 
+        status, buy_info = await client.buy(amount, asset, direction, duration)
+        print(status, buy_info)
         
-        if check_connect:   
-            # asset_query = asset_parse(asset)
-            # asset_open = client.check_asset_open(asset_query)
-            try:
-                status, buy_info = await client.buy(amount, asset, direction, duration)
-                print(status, buy_info)
-                if status:
-                        print(f"Waiting result of Attempt...{numbertry}")
-                        if await client.check_win(buy_info["id"]):
-                            print(f"\nWin!!! \nWe beat kids!!!\nProfit:R$ {client.get_profit()}")
-                            # client.close()
-                            break
-                        else:
-                            print(f"\nLoss!!! \nWe lost kid!!!\nLoss: R$ {client.get_profit()}")
-                            # client.close()
-                            numbertry+=1
-                            amount=amount*2
-                            # if(numbertry==3)
-            except:
-                print("Operation failed!!!")
+        if await client.check_win(buy_info["id"]):
+            print(f"\nWin!!! \nWe beat kids!!!\nProfit:R$ {client.get_profit()}")
 
-            print("Current Balance: ", await client.get_balance())
-        print("Leaving...")
+        else:
+            print(f"\nLoss!!! \nMake New Trade with 2x amount the amount")
+            client.close()
+            check_connect, message = await connect()
+            status, buy_info = await client.buy(amount*2, asset, direction, duration)
+            print(status, buy_info)
+            if await client.check_win(buy_info["id"]):
+                print(f"\nWin!!! \nWe beat kids!!!\nProfit:R$ {client.get_profit()}")
+            else:
+                print(f"\nLoss!!! \nMake New Trade with 4x amount the amount")
+                client.close()
+                check_connect, message = await connect()
+                status, buy_info = await client.buy(amount*2, asset, direction, duration)
+                print(status, buy_info)
+                if await client.check_win(buy_info["id"]):
+                    print(f"\nWin!!! \nWe beat kids!!!\nProfit:R$ {client.get_profit()}")
+                else:
+                    print(f"\n Loss: R$ {client.get_profit()}")
+    except: 
+        print("Operation failed!!!")
     client.close()
 
 
@@ -360,7 +360,7 @@ async def get_realtime_candle():
     client.close()
 
 
-async def get_realtime_sentiment(asset = "USDPKR_otc"):
+async def get_realtime_sentiment(asset = "GBPCHF_otc"):
     check_connect, message = await connect()
     if check_connect:
         # asset = "EURUSD_otc"
@@ -420,10 +420,10 @@ async def main():
                 return await buy_simple()
             case "buy_and_check_win":
                 return await buy_and_check_win()
-            case "buy_and_check":
-                return await buy_and_check()
             case "buy_and_check_win_3":
                 return await buy_and_check_win_3()
+            case "buy_and_check":
+                return await buy_and_check()
             case "buy_multiple":
                 return await buy_multiple()
             case "balance_refill":
