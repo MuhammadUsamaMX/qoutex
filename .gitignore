@@ -4,3 +4,4 @@ settings/
 *.session
 __pycache__/
 .env.bk
+session.json
