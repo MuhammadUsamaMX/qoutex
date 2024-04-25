@@ -3,3 +3,4 @@ browser/
 settings/
 *.session
 __pycache__/
+.env.bk
