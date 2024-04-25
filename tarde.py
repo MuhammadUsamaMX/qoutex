@@ -31,17 +31,18 @@ async def wait_until_start(start_time):
     while True:
         current_time = datetime.now()
         remaining_seconds = (start_time - current_time.minute - 1) * 60 + (60 - current_time.second)
-        if remaining_seconds <= 18:  # Also start before 18 seconds
+        if remaining_seconds <= 6:  # Also start before 6 seconds
             break
-        print(f"Remaining seconds: {remaining_seconds}")
+        print(f"Remaining seconds: {remaining_seconds-6}\r")
         await asyncio.sleep(1)
 
 async def trading(signal_data):
     await wait_until_start(signal_data["Time"])
     try:
-        await buy_and_check_win_3(amount_percentage=1, asset=signal_data["Currency Pair"]+"_otc", direction=signal_data["Position"])
+        await buy_and_check_win_3(amount_percentage=1, asset=signal_data["Currency Pair"]+"_otc", direction=signal_data["Position"], duration = 300)
+        return "Trade Run Successfully!"
     except Exception as e:
-        print("Error occurred while executing buy_and_check_win_3:", e)
+        return "While executing trade,Error occurred : " + e
 
 async def main():
     # Set up Telegram client
@@ -51,7 +52,7 @@ async def main():
     await client.start()
 
     # Define the Telegram entity (channel, group, etc.) ID
-    entity_id = -1001945788775  # Replace with your channel ID AMIR VIP SIGNALS (1001945788775)
+    entity_id = -1002009134814  # Replace with your channel ID AMIR VIP SIGNALS (1001945788775)
 
     # Event handler for new messages
     @client.on(events.NewMessage(chats=entity_id))
