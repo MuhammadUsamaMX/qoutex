@@ -2,3 +2,5 @@ Temp/
 browser/
 settings/
 *.session
+__pycache__/
+browsers/
