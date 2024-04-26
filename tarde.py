@@ -6,6 +6,7 @@ from dotenv import dotenv_values
 import signal
 import sys
 import os
+from main import buy_and_check_win_3
 
 # Load environment variables
 env_vars = dotenv_values('.env')
@@ -26,25 +27,17 @@ def extract_signal_data(text):
                 position = match[2].strip().upper()
                 signal_data["Position"] = "put" if "DOWN" in position else "call"
         return signal_data
-    return None
+    else:
+        return None
 
 async def wait_until_start(start_time):
     while True:
-        remaining_seconds = (start_time - datetime.now().minute - 1) * 60 + (60 - datetime.now().second)
-        if remaining_seconds <= 10:
+        current_time = datetime.now()
+        remaining_seconds = (start_time - current_time.minute - 1) * 60 + (60 - current_time.second)
+        if remaining_seconds <= 18:  # Also start before 18 seconds
             break
-        print(f"Remaining seconds: {remaining_seconds - 10}\r")
+        print(f"Remaining seconds: {remaining_seconds-18}\r")
         await asyncio.sleep(1)
-
-async def trading(signal_data):
-    await wait_until_start(signal_data["Time"])
-    try:
-        # Assuming buy_and_check_win_3 is defined elsewhere
-        await buy_and_check_win_3(amount_percentage=1, asset=f"{signal_data['Currency Pair']}_otc", direction=signal_data["Position"], duration=300)
-        print("Trade Run Successfully!")
-    except Exception as e:
-        print("While executing trade, Error occurred:", e)
-
 
 def check_program_status():
     if os.path.exists('istarted.ini'):
@@ -61,11 +54,6 @@ def check_program_status():
         print("Program is not started yet.")
 
 async def main():
-
-    # Write "started" to the 'istarted.ini' file
-    with open('istarted.ini', 'w') as file:
-        file.write('started')
-
     # Set up Telegram client
     client = TelegramClient('session_name', int(env_vars['API_ID']), env_vars['API_HASH'])
 
@@ -78,23 +66,26 @@ async def main():
     # Event handler for new messages
     @client.on(events.NewMessage(chats=entity_id))
     async def handler(event):
-        message_text = event.message.message.lower()  # Convert message to lowercase for case insensitivity
-        if "signal" in message_text:
+        if "Signal" in event.message.message:
             signal_data = extract_signal_data(event.message.message)
-            if signal_data:
-                print(signal_data)
-                await trading(signal_data)
-        if "trading report" in message_text and "4th session" in message_text:
+            # print(signal_data)
+            await wait_until_start(signal_data["Time"])
+            try:
+                await buy_and_check_win_3(amount_percentage=1, asset=signal_data["Currency Pair"]+"_otc", direction=signal_data["Position"],duration = 5)
+        #       return True
+            except Exception as e:
+                print("While executing trade, Error occurred:", e)
+
+            # Write "stopped" to the 'istarted.ini' file upon program exit
+            with open('istarted.ini', 'w') as file:
+                file.write('stopped')
+
             print("Exiting program and stopping all processes...")
             await client.disconnect()
             sys.exit()
 
     print("Listening for new messages...")
     await client.run_until_disconnected()
-
-    # Write "stopped" to the 'istarted.ini' file upon program exit
-    with open('istarted.ini', 'w') as file:
-        file.write('stopped')
 
 
 def exit_handler(sig, frame):

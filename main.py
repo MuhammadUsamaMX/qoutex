@@ -225,12 +225,13 @@ async def buy_and_check_win_3(amount_percentage = 1,asset = "USDEGP_otc", direct
                 print(f"\nLoss!!! \nMake New Trade with 4x amount the amount")
                 client.close()
                 check_connect, message = await connect()
-                status, buy_info = await client.buy(amount*2, asset, direction, duration)
+                status, buy_info = await client.buy(amount*4, asset, direction, duration)
                 print(status, buy_info)
                 if await client.check_win(buy_info["id"]):
                     print(f"\nWin!!! \nWe beat kids!!!\nProfit:R$ {client.get_profit()}")
                 else:
                     print(f"\n Loss: R$ {client.get_profit()}")
+                    client.close()
     except: 
         print("Operation failed!!!")
     client.close()
