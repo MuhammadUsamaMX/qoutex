@@ -3,7 +3,7 @@ import re
 from datetime import datetime
 from telethon import TelegramClient, events
 from dotenv import dotenv_values
-from main import buy_and_check_win_3
+import sys
 
 # Load environment variables
 env_vars = dotenv_values('.env')
@@ -24,25 +24,24 @@ def extract_signal_data(text):
                 position = match[2].strip().upper()
                 signal_data["Position"] = "put" if "DOWN" in position else "call"
         return signal_data
-    else:
-        return None
+    return None
 
 async def wait_until_start(start_time):
     while True:
-        current_time = datetime.now()
-        remaining_seconds = (start_time - current_time.minute - 1) * 60 + (60 - current_time.second)
-        if remaining_seconds <= 6:  # Also start before 6 seconds
+        remaining_seconds = (start_time - datetime.now().minute - 1) * 60 + (60 - datetime.now().second)
+        if remaining_seconds <= 10:
             break
-        print(f"Remaining seconds: {remaining_seconds-6}\r")
+        print(f"Remaining seconds: {remaining_seconds - 10}\r")
         await asyncio.sleep(1)
 
 async def trading(signal_data):
     await wait_until_start(signal_data["Time"])
     try:
-        await buy_and_check_win_3(amount_percentage=1, asset=signal_data["Currency Pair"]+"_otc", direction=signal_data["Position"], duration = 300)
-        return "Trade Run Successfully!"
+        # Assuming buy_and_check_win_3 is defined elsewhere
+        await buy_and_check_win_3(amount_percentage=1, asset=f"{signal_data['Currency Pair']}_otc", direction=signal_data["Position"], duration=300)
+        print("Trade Run Successfully!")
     except Exception as e:
-        return "While executing trade,Error occurred : " + e
+        print("While executing trade, Error occurred:", e)
 
 async def main():
     # Set up Telegram client
@@ -57,10 +56,16 @@ async def main():
     # Event handler for new messages
     @client.on(events.NewMessage(chats=entity_id))
     async def handler(event):
-        if "Signal" in event.message.message:
+        message_text = event.message.message.lower()  # Convert message to lowercase for case insensitivity
+        if "signal" in message_text:
             signal_data = extract_signal_data(event.message.message)
-            print(signal_data)
-            await trading(signal_data)
+            if signal_data:
+                print(signal_data)
+                await trading(signal_data)
+        if "trading report" in message_text and "4th session" in message_text:
+            print("Exiting program and stopping all processes...")
+            await client.disconnect()
+            sys.exit()
 
     print("Listening for new messages...")
     await client.run_until_disconnected()
