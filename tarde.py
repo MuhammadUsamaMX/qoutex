@@ -3,7 +3,9 @@ import re
 from datetime import datetime
 from telethon import TelegramClient, events
 from dotenv import dotenv_values
+import signal
 import sys
+import os
 
 # Load environment variables
 env_vars = dotenv_values('.env')
@@ -43,7 +45,27 @@ async def trading(signal_data):
     except Exception as e:
         print("While executing trade, Error occurred:", e)
 
+
+def check_program_status():
+    if os.path.exists('istarted.ini'):
+        with open('istarted.ini', 'r') as file:
+            status = file.read().strip()
+            print(f"Program is {status}")
+            if status == 'stopped':
+                print("Program is stopped. Starting...")
+                # Run the asynchronous function
+                asyncio.run(main())
+            else:
+                print("Already running....")
+    else:
+        print("Program is not started yet.")
+
 async def main():
+
+    # Write "started" to the 'istarted.ini' file
+    with open('istarted.ini', 'w') as file:
+        file.write('started')
+
     # Set up Telegram client
     client = TelegramClient('session_name', int(env_vars['API_ID']), env_vars['API_HASH'])
 
@@ -70,5 +92,20 @@ async def main():
     print("Listening for new messages...")
     await client.run_until_disconnected()
 
-# Run the asynchronous function
-asyncio.run(main())
+    # Write "stopped" to the 'istarted.ini' file upon program exit
+    with open('istarted.ini', 'w') as file:
+        file.write('stopped')
+
+
+def exit_handler(sig, frame):
+    print("Forcefully terminating the program...")
+    with open('istarted.ini', 'w') as file:
+        file.write('stopped')
+    sys.exit(0)
+
+# Register the exit handler for SIGINT and SIGTERM signals
+signal.signal(signal.SIGINT, exit_handler)
+signal.signal(signal.SIGTERM, exit_handler)
+
+# Start the check_program_status
+check_program_status()
