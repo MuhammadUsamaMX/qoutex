@@ -22,4 +22,4 @@ pip install -r requirements.txt telethon python-dotenv playwright-stealth schedu
 playwright install
 playwright install-deps
 # Run the Python script
-python3 tarde.py
+python3 run.py
