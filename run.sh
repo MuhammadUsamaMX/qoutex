@@ -15,8 +15,7 @@ git clone -b AutoTrade https://github.com/MuhammadUsamaMX/qoutex.git ~/qoutex
 cd ~/qoutex
 
 # Install Python dependencies
-pip install -r requirements.txt telethon python-dotenv playwright-stealth schedule
-
+pip install -r requirements.txt telethon python-dotenv playwright-stealth schedule pyfiglet
 
 # Install Playwright and its dependencies
 playwright install
