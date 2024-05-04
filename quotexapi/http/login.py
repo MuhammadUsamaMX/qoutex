@@ -1,6 +1,5 @@
 from ..http.qxbroker import Browser
 
-
 class Login(Browser):
     """Class for Quotex login resource."""
 

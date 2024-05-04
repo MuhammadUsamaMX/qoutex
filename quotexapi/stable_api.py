@@ -222,6 +222,26 @@ class Quotex(object):
             status_buy = True
         return status_buy, self.api.buy_successful
 
+    async def time_buy(self, amount, asset, direction, time):
+        """TIme_Buy Binary option"""
+        request_id = expiration.get_timestamp()
+        self.api.current_asset = asset
+        duration=300 # 5min duration
+        self.api.subscribe_realtime_candle(asset, duration) 
+        self.api.time_buy(amount, asset, direction, time, request_id)
+        count = 0.1
+        while self.api.buy_id is None:
+            count += 0.1
+            if count > duration:
+                status_buy = False
+                break
+            await asyncio.sleep(0.1)
+            if global_value.check_websocket_if_error:
+                return False, global_value.websocket_error_reason
+        else:
+            status_buy = True
+        return status_buy, self.api.buy_successful
+
     async def sell_option(self, options_ids):
         """Sell asset Quotex"""
         self.api.sell_option(options_ids)

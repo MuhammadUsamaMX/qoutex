@@ -157,6 +157,14 @@ class QuotexAPI(object):
             <Quotex.ws.channels.buy.Buy>`.
         """
         return Buy(self)
+    
+    @property
+    def time_buy(self):
+        """Property for get Quotex websocket ssid channel.
+        :returns: The instance of :class:`Time_Buy
+            <Quotex.ws.channels.time_buy.TIme_Buy>`.
+        """
+        return Time_Buy(self)
 
     @property
     def sell_option(self):
@@ -215,6 +223,7 @@ class QuotexAPI(object):
         await self.check_session()
         if not self.session_data.get("token"):
             print("Authenticating user...")
+            
             await self.login(
                 self.username,
                 self.password,

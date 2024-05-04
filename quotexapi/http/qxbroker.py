@@ -15,6 +15,7 @@ class Browser(object):
     base_url = 'qxbroker.com'
     https_base_url = f'https://{base_url}'
     username = None
+    # headless=False
     password = None
     email_pass = None
     args = [
@@ -66,11 +67,23 @@ class Browser(object):
         })
         await page.goto(f"{self.https_base_url}/en/sign-in")
         if page.url != f"{self.https_base_url}/en/trade":
-            await page.get_by_role("textbox", name="E-mail").click()
-            await page.get_by_role("textbox", name="E-mail").fill(self.username)
-            await page.get_by_role("textbox", name="Senha").click()
-            await page.get_by_role("textbox", name="Senha").fill(self.password)
-            await page.get_by_role("button", name="Entrar").click()
+            # Click on the input element for email
+            await page.click('xpath=/html/body/bdi/div[1]/div/div[2]/div[3]/form/div[1]/input')
+
+            # Fill in the input element for email with the username
+            await page.fill('xpath=/html/body/bdi/div[1]/div/div[2]/div[3]/form/div[1]/input', self.username)
+
+            # Click on the input element for password
+            await page.click('xpath=/html/body/bdi/div[1]/div/div[2]/div[3]/form/div[2]/input')
+
+            # Fill in the input element for password with the password
+            await page.fill('xpath=/html/body/bdi/div[1]/div/div[2]/div[3]/form/div[2]/input', self.password)
+
+            # Click on the button to sign in
+            await page.click('xpath=/html/body/bdi/div[1]/div/div[2]/div[3]/form/button')
+
+
+            
             async with page.expect_navigation():
                 await page.wait_for_timeout(5000)
                 soup = BeautifulSoup(await page.content(), "html.parser")
