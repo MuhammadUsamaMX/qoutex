@@ -85,7 +85,7 @@ class Browser(object):
 
             
             async with page.expect_navigation():
-                await page.wait_for_timeout(5000)
+                await page.wait_for_timeout(10000)
                 soup = BeautifulSoup(await page.content(), "html.parser")
                 if "Insira o código PIN que acabamos de enviar para o seu e-mail" in soup.get_text():
                     pin_code = await get_pin(self.username, self.email_pass)
