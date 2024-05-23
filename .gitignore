@@ -5,3 +5,4 @@ settings/
 __pycache__/
 .env
 session.json
+user_data/
