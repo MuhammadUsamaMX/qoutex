@@ -1,49 +1,13 @@
-#!/bin/bash
-#https://ubuntuhandbook.org/index.php/2022/10/python-3-11-released-how-install-ubuntu/
-# Here's how you can install pip for Python 3.11:
-
-# Download the get-pip.py script:
-# bash
-# Copy code
-# curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-# Install pip for Python 3.11 using the downloaded script:
-# bash
-# Copy code
-# python3.11 get-pip.py
-# Verify that pip is installed for Python 3.11:
-# bash
-# Copy code
-# python3.11 -m pip --version
-# This should install pip for Python 3.11 and allow you to use it to install Python packages. Let me know if you encounter any issues!
-#sudo apt update
-# sudo apt install python3-dev build-essential libssl-dev
-
-
-
-
-
-
-
-
-# Set timezone
-export TZ=Asia/Karachi
-ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-
-# Install necessary packages
-apt-get update
-apt-get install -y software-properties-common python3.11 python3-pip git
-
-# Clone the repository
-git clone -b AutoTrade https://github.com/MuhammadUsamaMX/qoutex.git ~/qoutex
-
-# Set the working directory
-cd ~/qoutex
-
-# Install Python dependencies
-pip install -r requirements.txt 
-pip install telethon python-dotenv playwright-stealth schedule pyfiglet
-
-# Install Playwright and its dependencies
-playwright install && playwright install-deps
-# Run the Python script
-python3 run.py
+docker run -d \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v /var/lib/docker/volumes:/var/lib/docker/volumes \
+  -v /:/host \
+  -v portainer_agent_data:/data \
+  --restart always \
+  -e EDGE=1 \
+  -e EDGE_ID=0353397f-6fb7-458d-855a-2741952f1686 \
+  -e EDGE_KEY=aHR0cHM6Ly9wb3J0YWluZXIuc2VydmVyLmFtdWl6LmNvbS98MTQxLjE0Ny43My41Nzo4MDAwfERFWnVyY3dLWWZTUFlBa3pzNGRkZ1hwaDg2QlhYM0g4Vk9FdDg0K2NJQ3c9fDM \
+  -e EDGE_INSECURE_POLL=1 \
+  --name portainer_edge_agent \
+  portainer/agent:2.19.5
+  
